@@ -1,0 +1,37 @@
+﻿@{
+    ViewBag.Title = "Custom View Engine & Virtual Path";
+}
+
+<div class="jumbotron">
+    <h2>Custom View Engine & Virtual Path Application</h2>
+    <p class="lead">This is MVC application to demostrate Custom View Engine & Virtual Path provider.</p>
+</div>
+
+
+<div class="row">
+    <div class="col-md-12">
+        @Html.ActionLink("Click Here for Virtual View", "GetVirtualFile")
+    </div>
+</div>
+<div class="row"></div>
+<div class="row">
+    <div class="col-md-12">
+        <h2>Some useful links</h2>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-6">
+        <h2>ASP.NET MVC VIRTUAL PATH PROVIDER</h2>
+        <p>
+            I’ve read several articles showing how to implement a custom VirtualPathProvider to load ASP.NET MVC views direct from SQL database storage. This type of implementation really extends the CMS possibilities of ASP.NET MVC .
+        </p>
+        <p><a class="btn btn-default" href="http://blog.rocketbase.co.uk/2011/04/asp-net-mvc-virtual-path-provider/">Learn more &raquo;</a></p>
+    </div>
+    <div class="col-md-6">
+        <h2>Storing Razor view in the database</h2>
+        <p>Hi,
+
+I am trying to create a CMS style application where a user can access any URL and the view (razor) is fetched from the database.  After some time searching, I tried creating a VirtualPathProvider using this method as an example: http://support.microsoft.com/kb/910441 .</p>
+        <p><a class="btn btn-default" href="http://forums.asp.net/t/1705855.aspx?Storing+Razor+view+in+the+database">Learn more &raquo;</a></p>
+    </div>
+</div>
